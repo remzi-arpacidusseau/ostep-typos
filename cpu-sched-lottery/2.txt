@@ -1,0 +1,4 @@
+The formula used to do so is as follows: ->
+The formula used to do so is as follows, assuming n processes:
+
+Chien Chi
