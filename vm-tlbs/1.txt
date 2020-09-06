@@ -1,0 +1,5 @@
+int sum = 0; ->
+int i, sum = 0;
+
+
+Santiago Marini
