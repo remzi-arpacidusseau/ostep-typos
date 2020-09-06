@@ -1,0 +1,4 @@
+it inversely by the weight of the process ->
+it inversely by the weight of the process, by dividing the default weight of 1024 (weight_0) by its weight, weight_i.
+
+Chien Chi
