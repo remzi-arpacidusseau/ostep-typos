@@ -1,0 +1,13 @@
+44.8 (Garbage Collection)
+
+"For example, 2000 and 2001 clearly are still pointed to by the map; 
+100 and 101 are not and
+therefore are candidates for garbage collection."
+
+->
+
+"For example, pages 2 and 3 clearly are still pointed to by the map (by logical blocks
+2000 and 2001, respectively); 0 and 1
+are no longer pointed to by anything and are therefore candidates for garbage collection."
+
+Kyle Hale (Illinois Institute of Technology)
