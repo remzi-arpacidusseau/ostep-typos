@@ -1,0 +1,4 @@
+"...as the discrepancy between memory-access and disk-access times has increased" ->
+"...as the discrepancy between memory-access and disk-access times have decreased"
+
+Noah Jackson
