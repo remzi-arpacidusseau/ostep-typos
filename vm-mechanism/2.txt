@@ -1,0 +1,6 @@
+Free-Space Management page 4: diagram of free list after `free(10)` has `addr:10` and `addr:0` in reverse order, should be:
+
+head --> addr:0 --> addr:10 --> addr:20 --> NULL
+         len:10     len:10      len:10
+
+Tim Kanarsky
