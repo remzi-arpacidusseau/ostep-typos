@@ -1,0 +1,2 @@
+http://greenteapress.com/semaphores/downey08semaphores.pdf ->
+https://greenteapress.com/semaphores/LittleBookOfSemaphores.pdf
