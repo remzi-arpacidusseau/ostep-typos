@@ -1,0 +1,10 @@
+At the 11th page, in the first paragraph right under the first picture, change the following sentences:
+
+"If our page directory has 2^14 entries, it spans not one page but 128."
+
+to: 
+
+"If our page directory has 2^14 entries, assuming each PDE size also of 4 bytes, it spans not one page but 128."
+
+reason: the PDE size is not mentioned, which will bring misunderstanding to the calculation
+
