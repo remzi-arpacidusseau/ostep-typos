@@ -1,5 +1,6 @@
 Homework
 
-6. Now change the size of the inode table per group to 5 (-I 5) -> Now change the size of the inode table per group to 5 (-i 5)
+6. Now change the size of the inode table per group to 5 (-I 5)
+-> Now change the size of the inode table per group to 5 (-i 5)
 
 and question 7
