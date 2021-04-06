@@ -3,4 +3,7 @@ Homework
 6. Now change the size of the inode table per group to 5 (-I 5)
 -> Now change the size of the inode table per group to 5 (-i 5)
 
-and question 7
+7. Run ./ffs.py -f in.manyfiles -I 5 -A 2 -c 
+-> Run ./ffs.py -f in.manyfiles -i 5 -A 2 -c
+
+thasinaz
