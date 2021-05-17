@@ -1,0 +1,24 @@
+1. the usage of setpark() in 28.14
+I think the code of setpark() should be:
+queue_add(m-q, gettid());
+m->guard=0;
+setpark();
+
+rather than the code:
+queue_add(m-q, gettid());
+setpark();
+m->guard=0;
+
+Because if we adopt the second way, like the book, the guard lock will be possessed by the thread that calls setpark() until the thread unpark().
+In the sleeping time, any other thread can not call unpark() in unlock(), because only the thread which possesses the guard lock can call unpark(),
+but meanwhile the guard lock is possessed by the sleep thread, which may degenrate to a spin lock.
+
+2.the code in mutex_unlock() in 28.15
+I think the code of mutex_unlock() should be:
+if (!atomic_add_zero(mutex, 0x80000000))
+
+rather than:
+if (atomic_add_zero(mutex, 0x80000000))
+
+If my guess is correct, the atomic_add_zero() should return the new value of mutex. So, if the old value of mutex is 0x80000000, which means there is no waiting
+thread, mutex_unlock should return immediately, but the new value of mutex is 0x80000000+0x80000000=0x00000000 and the expression is false. 
