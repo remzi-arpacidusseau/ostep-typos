@@ -1,0 +1,5 @@
+directory memory access
+
+->
+
+direct memory access
