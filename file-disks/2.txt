@@ -1,0 +1,3 @@
+page 15: "It remains a technical report (and not a published paper) because the authors were
+scooped by Seltzer et al. [S90]." -> "It remains a technical report (and not a published paper) because the authors were
+scooped by Seltzer et al. [SCO90]." (Patrick Lee @ UBC)
