@@ -1,0 +1,6 @@
+On page 11 second line
+
+"when placing that job back into the list (in order), we would have to scan
+the list, looking for the right spot to insert it, an O(n) operation"
+
+But in a ordered (sorted )list we can find the perfect spot in logn time using binary search
