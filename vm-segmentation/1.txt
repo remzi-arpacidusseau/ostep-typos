@@ -1,0 +1,18 @@
+# 16.2 Which Segment Are We Referring To?
+
+possible typo:
+SEG_MASK would be set to 0x3000
+
+correction:
+SEG_MASK would be set to 0x1000
+
+explanation:
+
+* The book sets up SEG_MASK to be 0x3000 ( 3*16^3 == 12288 )
+* The section is presumably referring to the same heap as in section 16.1
+* The heap starts at virtual address 4KB, 0x1000 ( 1*16^3 == 4096 )
+* Presumably this is the SEG_MASK we want to use?
+
+
+
+
