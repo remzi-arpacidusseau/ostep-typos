@@ -1,0 +1,3 @@
+Typo in 2nd homework question
+
+-m, to display memory totals in megabytes (should be mebibytes)
