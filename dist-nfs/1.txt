@@ -1,0 +1,10 @@
+While they can place a copy of the data in server memory, returning success to the client on a WRITE protocol request could result in incorrect behavior; can you figure out why?
+
+->
+
+While the server can place a copy of the data in server memory, having it return success to the client...
+
+
+The current sentence as written is missing a subject and has a sort-of weird agreement issue
+
+Megan Cutrofello
