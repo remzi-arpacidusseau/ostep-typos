@@ -1,0 +1,5 @@
+this write would result in aspace leak, as block 5 would never be used by the file system.
+
+I just wanted to suggest a tongue-in-cheek footnote here if you are interested - "Though the Phantom of the Opera would certainly be pleased!" (block 5 -> box 5)
+
+Megan Cutrofello
