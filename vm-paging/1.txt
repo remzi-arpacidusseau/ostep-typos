@@ -1,0 +1,3 @@
+"It is sometimes said that the operating system takes one of two approaches
+when solving most any space-management problem." -> "It is sometimes said that the operating system takes one of two approaches
+when solving almost any space-management problem. "
