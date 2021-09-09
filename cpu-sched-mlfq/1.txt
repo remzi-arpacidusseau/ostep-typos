@@ -1,0 +1,23 @@
+Text book says:
+"Two graphs are shown in Figure 8.5 (page 6). On the left,
+there is no priority boost, and thus the long-running job gets starved once
+the two short jobs arrive; on the right, there is a priority boost every 50
+ms (which is likely too small of a value, but used here for the example),
+and thus we at least guarantee that the long-running job will make some
+progress, getting boosted to the highest priority every 50 ms and thus
+getting to run periodically"
+
+Is this really correct for the figure on the right:
+- why does the long-running job not get boosted after the first 50ms?
+- why do the short-jobs get to run five times each before the long job? shouldnt they circulate in RR-fashion?
+- the last run of the long job happens before the priority boost at 200ms so that run should be in Q1 I think
+
+forgive me if Im missing something here
+
+(also trying to run this example with the simulator with something like
+mlfq.py -Q 10,10,10 -l 0,130,0:100,30,1:100,30,1 -i 1 -S -B 50 
+seems to give very strange results, the boost at time 50 lets the process just run once at level 2, 
+then 10 times at level 1, the simulator seems a bit messed up wrt Q2)
+
+besides this, Im very happy with your book, the course I teach is here:
+https://gitlab.com/erikhje/iikos/-/blob/master/schedule.md
