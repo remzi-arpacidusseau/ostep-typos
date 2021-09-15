@@ -1,0 +1,4 @@
+Suggest changing
+"After creating a hard link to a file, to the file system, there is no difference between the original file name" 
+to
+"After creating a hard link to a file, the file system preceives no difference between the original file name"
