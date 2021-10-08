@@ -1,0 +1,5 @@
+On Figure 8.5: Without (Left) and With (Right) Priority Boost 
+Right image, black process should go to Q2 on ms, then Q1, then Q0 until 100ms. 
+Should look about as shown in file 2.png
+
+Luigi Finetti (@ FaMAF, UNC)
