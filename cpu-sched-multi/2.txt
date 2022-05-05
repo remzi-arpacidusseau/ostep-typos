@@ -1,0 +1,3 @@
+Minor grammatical error in section 8.3
+"The simple idea here is to boost the priority of all the jobs in system." should be
+"The simple idea here is to boost the priority of all the jobs in the system."
