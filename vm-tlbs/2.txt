@@ -1,0 +1,3 @@
+"These set of actions are costly" should be "This set of actions is costly".
+
+Tao Lu
