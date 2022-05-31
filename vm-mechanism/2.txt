@@ -1,0 +1,1 @@
+Section 15.3 (top of page 8): "will the result be a fault" -> "the result will be a fault" (Alexander Nordin)
