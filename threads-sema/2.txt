@@ -1,0 +1,4 @@
+Foot note on page 408 should link to https://greenteapress.com/semaphores/LittleBookOfSemaphores.pdf
+Although the references link (D08) is fine, this could be considered (or instead point to https://greenteapress.com/semaphores/)
+
+Sarthak Mittal - Indian Institute of Technology Bombay
