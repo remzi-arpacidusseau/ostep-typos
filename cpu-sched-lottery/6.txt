@@ -1,0 +1,7 @@
+In References in p.13
+
+In the description for [B+18],
+there is only one closing parenthesis while there are two opening parentheses.  
+I think there should be one more closing parenthesis somewhere appropriate.
+
+Kyutae Lee
