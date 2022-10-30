@@ -1,4 +1,4 @@
-At p.7, reference to "[K+15]" is missing.
+On p.7, reference to "[K+15]" is missing.
 
 Recent studies have shownthat scheduler efficiency is surprisingly important; specifically, 
 in a studyof Google datacenters, Kanev et al. show that even after aggressive opti-mization,
