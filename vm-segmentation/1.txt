@@ -1,0 +1,5 @@
+page 10: 
+"It is also fast, as doing the arithmetic segmentation requires is easy and
+well-suited to hardware; the overheads of translation are minimal." -> 
+"It is also fast, as doing the arithmetic segmentation is easy and
+well-suited to hardware; the overheads of translation are minimal."
