@@ -1,0 +1,1 @@
+In the footnotes, in "but context-switches still happen in the *millisecond* time range.", I think *milisecond* should be *microsecond*.
