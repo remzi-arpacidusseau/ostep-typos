@@ -1,0 +1,9 @@
+p.15 References
+
+On the comment for [C06], a period mark "." is missing.
+
+in Linux This article
+->
+in Linux. This article
+
+Kyutae Lee
