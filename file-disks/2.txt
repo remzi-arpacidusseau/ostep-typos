@@ -1,0 +1,8 @@
+In References on p.15,
+on the comments for [JW91]
+
+scooped by Seltzer et al. [S90].
+->
+scooped by Seltzer et al. [SCO90].
+
+Kyutae Lee
