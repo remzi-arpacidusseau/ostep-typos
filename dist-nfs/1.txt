@@ -1,0 +1,63 @@
+If we compare "Figure 49.4: The NFS Protocol: Examples"
+with RFC 1094 (https://www.rfc-editor.org/rfc/rfc1094.html) which is
+a specification for NFSv2, we can find Figure 49.4 has some errors.
+
+---
+
+NFSPROC_GETATTR  file handle
+                 returns: attributes
+NFSPROC_SETATTR  file handle, attributes
+                 returns: –
+NFSPROC_LOOKUP   directory file handle, name of file/dir to look up
+                 returns: file handle
+NFSPROC_READ     file handle, offset, count
+                 data, attributes
+NFSPROC_WRITE    file handle, offset, count, data
+                 attributes
+NFSPROC_CREATE   directory file handle, name of file, attributes
+                 –
+NFSPROC_REMOVE   directory file handle, name of file to be removed
+                 –
+NFSPROC_MKDIR    directory file handle, name of directory, attributes
+                 file handle
+NFSPROC_RMDIR    directory file handle, name of directory to be removed
+                 –
+NFSPROC_READDIR  directory handle, count of bytes to read, cookie
+                 returns: directory entries, cookie (to get more entries)
+
+
+->
+
+
+NFSPROC_GETATTR  file handle
+                 returns: attributes
+NFSPROC_SETATTR  file handle, attributes
+                 returns: attributes
+NFSPROC_LOOKUP   directory file handle, name of file/dir to look up
+                 returns: file handle, attributes
+NFSPROC_READ     file handle, offset, count
+                 returns: data, attributes
+NFSPROC_WRITE    file handle, offset, data
+                 returns: attributes
+NFSPROC_CREATE   directory file handle, name of file, attributes
+                 returns: file handle, attributes
+NFSPROC_REMOVE   directory file handle, name of file to be removed
+                 returns: –
+NFSPROC_MKDIR    directory file handle, name of directory, attributes
+                 returns: file handle, attributes
+NFSPROC_RMDIR    directory file handle, name of directory to be removed
+                 returns: –
+NFSPROC_READDIR  directory handle, count of bytes to read, cookie
+                 returns: directory entries, cookie (to get more entries),
+                          eof (TRUE if there are no more entries in the directory)
+
+
+---
+
+I was not sure I was doing right but I also deleted "count" in the arguments
+for NFSPROC_WRITE because RFC 1094 says:
+'The arguments "beginoffset" and "totalcount" are ignored and are removed
+in the next protocol revision.'
+Maybe "count" information is included in "nfsdata" in RFC 1094? I don't know..
+
+Kyutae Lee
