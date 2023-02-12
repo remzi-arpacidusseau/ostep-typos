@@ -1,0 +1,12 @@
+Page 15 (Summary):
+At the end, the summary mentions recent innovations
+including flash-based SSDs and Intel Optane.
+Unfortunately, as of part of Intel's Q2 2022 earnings
+call, they announced they would be discontinuing 
+Optane, which should perhaps be reflected here. 
+(In fact, it seems as if all 3D XPoint memory is 
+canceled). Perhaps newer technologies being used such
+as Samsung Z-NAND or those being researched such as
+PCM, RRAM, and MRAM could be mentioned instead.
+
+Jacob Levinson (UCLA)
