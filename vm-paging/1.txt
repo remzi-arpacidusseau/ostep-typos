@@ -1,0 +1,7 @@
+Typo in the very first sentence of the first page of Section 18: Introduction to Paging.
+
+"It is sometimes said that the operating system takes one of two approaches when solving most any space-management problem"
+
+instead should be
+
+"It is sometimes said that the operating system takes one of two approaches when solving [almost] any space-management problem"
