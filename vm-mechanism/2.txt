@@ -1,0 +1,11 @@
+page 13: 
+"In our current approach, although there might be enough physical 
+memory for more processes, we are currently restricted to placing 
+an address space in a fixed-sized slot and thus internal fragmentation 
+can arise" 
+-> 
+"In our current approach, although there might be enough physical 
+memory for more processes, we are currently restricted to placing 
+an address space in a fixed-sized slot, thereby inefficiently
+using physical memory and unnecessarily limiting our machines capability."
+
