@@ -1,0 +1,9 @@
+On page 12,
+
+# void swtch(struct context **old, struct context *new);
+
+should be
+
+# void swtch(struct context *old, struct context *new);
+
+Alihan Turan
