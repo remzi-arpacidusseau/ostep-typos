@@ -1,0 +1,4 @@
+In page number 2 (Section 44.2: From Bits to Banks/Planes):
+"...,storing a single bit (or a few) does not a storage system make" -> "...,storing a single bit (or a few) does not make a storage system"
+
+Shri Sarvesh Venkatachala Moorthy (Virginia Tech)
