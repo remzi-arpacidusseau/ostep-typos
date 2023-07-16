@@ -1,3 +1,11 @@
+
+"...if not, the CPU undoes their effects on architectural state (e.g., registers) tries again" ->
+"...if not, the CPU undoes their effects on the architectural state (e.g., registers) and tries again"
+
+Noah Jackson
+
+and
+
 "Even the code in main()..." --> "Even though the code in main...()"
 
 missing "though"
