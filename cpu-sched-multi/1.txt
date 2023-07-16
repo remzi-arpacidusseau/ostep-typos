@@ -1,0 +1,5 @@
+The sentence:
+"The program then re-reads the value at address A; there is no such data CPU 2's cache",
+should probably read:
+"The program then re-reads the value at address A; there is no such data in CPU 2's cache"
+Joel Hassan (U. Helsinki)
