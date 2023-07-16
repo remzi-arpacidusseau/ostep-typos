@@ -1,0 +1,7 @@
+(as we'll see in the chapter on log-structured file systems)
+->
+(as we saw in the chapter on log-structured file systems)
+
+Since the log-structured file systems chapter comes before the flash-based SSDs chapter
+
+Megan Cutrofello
