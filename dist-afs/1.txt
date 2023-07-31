@@ -1,0 +1,10 @@
+AFSv2 was measured and found to be much more scalable that the original version.
+->
+AFSv2 was measured and found to be much more scalable than the original version.
+(that -> than)
+
+
+"Figure 50.4 (page 9) shows the results of our qualitative comparison"
+should probably remove the page reference "(page 9)". Because the page number won't make sense in a printed book.
+
+Sirui Chen
