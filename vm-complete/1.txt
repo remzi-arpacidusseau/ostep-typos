@@ -1,3 +1,10 @@
+page 16, "See meltdownattack.com
+and spectreattack.com for papers describing each attack in detail." 
+meltdownattack.com and spectreattack.com both refer to the same website, there is no need to reference both.
+
+Matthew Prinz (UT)
+
+AND
 
 "...if not, the CPU undoes their effects on architectural state (e.g., registers) tries again" ->
 "...if not, the CPU undoes their effects on the architectural state (e.g., registers) and tries again"
