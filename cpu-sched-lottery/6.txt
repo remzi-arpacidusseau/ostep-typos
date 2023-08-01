@@ -1,0 +1,8 @@
+In page 10, under the "Using Red-Black Trees" section, in the first sentence of the third paragraph, there's a typo.
+  (OLD) CFS does not keep all 'process' in this structure;
+  (NEW) CFS does not keep all 'processes' in this structure;
+  
+FUN FACT: This page has a footer admitting a deliberate grammatical typo elsewhere in the page to mimic Gollum from LOTR.
+
+Thanks
+Phani Karan

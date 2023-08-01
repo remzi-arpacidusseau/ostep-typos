@@ -1,0 +1,5 @@
+Chen Huo (Shippensburg University)
+
+-I 5 -> -i 5
+
+(Homework question #6, wrong option for specifying inode table size)
