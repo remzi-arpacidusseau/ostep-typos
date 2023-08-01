@@ -1,0 +1,4 @@
+"The first are systems programming projects" -> "The first is systems programming projects"
+"The second type are ..." -> "The second type is ..."
+
+Po-Hao Su (Taiwan)
