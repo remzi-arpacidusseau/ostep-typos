@@ -1,0 +1,23 @@
+page 5:
+The code for mem.c as presented in the chapter does not require an argument, although the code on GitHub does: https://github.com/remzi-arpacidusseau/ostep-code/blob/master/intro/mem.c
+
+Passing an argument works for both versions, so:
+prompt> ./mem
+should be
+prompt> ./mem 0
+
+page 6:
+Similar to above:
+./mem & ./mem &
+should be
+./mem 0 & ./mem 0 &
+
+page 8:
+gcc -o thread thread.c -Wall -pthread
+should be
+gcc -o threads threads.c -Wall -pthread
+
+page 14:
+Berkeley Time-Sharing System [S+68]
+should be
+Berkeley Time-Sharing System [S68]
