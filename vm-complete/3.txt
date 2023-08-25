@@ -1,0 +1,7 @@
+p.12
+
+In this way, most applications would be unaffected (and continue to use only 4-KB pages;
+->
+In this way, most applications would be unaffected (and continue to use only 4-KB pages);
+
+Kyutae Lee

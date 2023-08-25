@@ -1,0 +1,11 @@
+On p.6, [A91] should be changed to [A90] to match the code in Reference.
+
+Locks, unfortunately, can greatly reduce performance,
+particularly asthe number of CPUs in the systems grows [A91].
+
+->
+
+Locks, unfortunately, can greatly reduce performance,
+particularly asthe number of CPUs in the systems grows [A90].
+
+Kyutae Lee

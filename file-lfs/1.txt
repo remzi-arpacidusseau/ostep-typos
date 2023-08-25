@@ -1,0 +1,10 @@
+“The Unwritten Contract of of Solid State Drives” by Jun He, Sudarsun Kannan, Andrea C. Arpaci-Dusseau, Remzi H. Arpaci-Dusseau
+is referred as [H+17] in this chapter.
+But in other chapters (file-disks and file-ssd), it is referred as [HK+17]. 
+So I think it is appropriate to change each [H+17] in this chapter to [HK+17].
+(When I searched "[HK+17]" by cmd+f shortcut on the full pdf file purchased on Gumroad,
+the reference in this chapter did not appear since it was referred as [H+17].)
+
+[H+17]
+->
+[HK+17]

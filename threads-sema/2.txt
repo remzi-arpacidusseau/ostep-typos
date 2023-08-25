@@ -1,0 +1,10 @@
+In footnote 3 on p.20:
+
+The url for the book “Little Book of Semaphores” was changed.
+The previous url is unavailable.
+
+http://greenteapress.com/semaphores/downey08semaphores.pdf
+->
+https://greenteapress.com/semaphores/LittleBookOfSemaphores.pdf
+
+Kyutae Lee
