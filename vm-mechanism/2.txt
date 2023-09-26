@@ -1,3 +1,12 @@
+
+page 7:
+a virtual address that is greater than the bounds ->
+a virtual address that is greater than or equal to the bounds
+
+thasinaz
+
+AND
+
 In the 5th page "ASIDE: WHY HARDWARE DOESN’T HANDLE PAGE FAULTS", first sentence is "We know from our experience with the TLB that hardware designers are
 loathe to trust the OS to do much of anything", but I think it should be "loath" instead of "loathe".
 (but this should be in vm-beyondphys)
