@@ -1,0 +1,19 @@
+This is not a typo, just a suggestion.
+
+On p.4, there is a piece of source from xv6 kernel:
+
+struct proc {
+  ...
+  struct file *ofile[NOFILE]; // Open files
+  ...
+};
+
+And I think the explanation around this piece can be more clarified if the following fact is included:
+the indices for the array `ofile` are the file descriptors.
+(Put it another way: the entries of the array `ofile` are indexed by the file descriptors.)
+
+We can check the fact from the following source:
+https://github.com/mit-pdos/xv6-public/blob/12abb1a56164a0d71fb7a76a465c912409f2f60b/sysfile.c#L36-L50
+where `proc->ofile` is indexed by `fd` which is a file descriptor.
+
+Kyutae Lee

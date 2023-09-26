@@ -1,0 +1,13 @@
+On p.7, reference to "[K+15]" is missing.
+
+Recent studies have shownthat scheduler efficiency is surprisingly important; specifically, 
+in a studyof Google datacenters, Kanev et al. show that even after aggressive opti-mization,
+scheduling uses about 5% of overall datacenter CPU time.
+
+->
+
+Recent studies have shownthat scheduler efficiency is surprisingly important; specifically,
+in a studyof Google datacenters, Kanev et al. show that even after aggressive opti-mization,
+scheduling uses about 5% of overall datacenter CPU time [K+15].
+
+Kyutae Lee

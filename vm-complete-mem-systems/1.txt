@@ -1,0 +1,5 @@
+Page 10 in "VM - COMPLETE VIRTUAL MEMORY SYSTEMS", line 9
+directory memory access -> direct memory access
+
+(Amusingly, the typo is in bold.)
+Yuxing Xiang [Peking University]

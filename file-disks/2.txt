@@ -1,0 +1,3 @@
+However, when updating the disk, the only guarantee drive manufactures make is that a single 512-byte write is atomic
+->
+However, when updating the disk, the only guarantee drive manufacturers make is that a single 512-byte write is atomic
