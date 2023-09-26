@@ -1,3 +1,19 @@
+
 Minor grammatical error in section 8.3
 "The simple idea here is to boost the priority of all the jobs in system." should be
 "The simple idea here is to boost the priority of all the jobs in the system."
+(this should actually be in MLFQ chapter but oh well)
+
+AND 
+
+On p.6, [A91] should be changed to [A90] to match the code in Reference.
+
+Locks, unfortunately, can greatly reduce performance,
+particularly asthe number of CPUs in the systems grows [A91].
+
+->
+
+Locks, unfortunately, can greatly reduce performance,
+particularly asthe number of CPUs in the systems grows [A90].
+
+Kyutae Lee
