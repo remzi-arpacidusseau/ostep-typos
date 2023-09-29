@@ -1,3 +1,0 @@
-Version 1.01, Page 4, Footnote 3
-
-	execl -> execl()		# at the bottom of the page
