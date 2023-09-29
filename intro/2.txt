@@ -1,3 +1,0 @@
- ./mem &; ./mem &
-should be
- ./mem & ./mem &

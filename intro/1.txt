@@ -1,4 +1,0 @@
-Add "common_threads.h" to threads.c code listing to match code in ostep-code
-
-Patrick Elsen
-
