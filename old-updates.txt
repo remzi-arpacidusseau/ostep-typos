@@ -1,0 +1,1043 @@
+
+FILE ./threads-cv/1.txt
+Fixed typo and other text in citation [LR80] at end of chapter
+
+Jersen Deng (UCLA)
+
+
+
+
+FILE ./file-implementation/2.txt
+replace ~ in URL in fat citation to %7e
+(which works with linking)
+
+Nizare Leonetti
+
+
+
+FILE ./file-implementation/1.txt
+20-KB in size (5 4KB blocks) ->
+20KB in size (five 4KB blocks)
+
+Dakota Cookenmaster
+
+
+
+
+FILE ./vm-smalltables/1.txt
+At the 11th page, in the first paragraph right under the first picture, change the following sentences:
+
+"If our page directory has 2^14 entries, it spans not one page but 128."
+
+to:
+
+"If our page directory has 2^14 entries, assuming each PDE size also of 4 bytes, it spans not one page but 128."
+
+reason: the PDE size is not mentioned, which will bring misunderstanding to the calculation
+
+
+
+
+FILE ./vm-intro/2.txt
+13.5: The VM system is responsible for providing the illusion of a large,
+sparse, private address space to programs, which hold all of their instructions and data therein.
+
+->
+
+13.5: The VM system is responsible for providing the illusion of a large,
+sparse, private address space to each program, which holds all of their instructions and data therein.
+
+
+
+FILE ./vm-intro/1.txt
+typo in citation M83, now fixed
+
+Abhishek Bhattacherjee (NITR)
+
+
+
+FILE ./cpu-api/1.txt
+Version 1.01, Page 4, Footnote 3
+
+execl -> execl()		# at the bottom of the page
+
+
+
+FILE ./security-distributed/1.txt
+p.13
+
+[NT95]
+->
+[NT94]
+
+Kyutae Lee
+
+
+
+FILE ./intro/3.txt
+In the body of the text, [S+68] should be edited to be [S68] to match the item in references.
+
+Kyutae Lee
+
+
+
+FILE ./intro/2.txt
+./mem &; ./mem &
+should be
+./mem & ./mem &
+
+
+
+FILE ./intro/1.txt
+Add "common_threads.h" to threads.c code listing to match code in ostep-code
+
+Patrick Elsen
+
+
+
+
+FILE ./file-dialogue/1.txt
+Page-1. 3rd line from bottom.
+"Check out some the latest..." -> "Check out some (of) the latest...".
+
+
+
+FILE ./security-crypto/1.txt
+p.7
+
+And we’d better be careful about it, since Bob is going to assume that
+messages encrypted
+with the public key he thinks belongs to Alice were actually created by Alice.
+
+->
+
+And we’d better be careful about it, since Bob is going to assume that
+messages decrypted
+with the public key he thinks belongs to Alice were actually created by Alice.
+
+
+That is, "encrypted" should be changed to "decrypted".
+
+Kyutae Lee
+
+
+
+FILE ./vm-complete/3.txt
+p.12
+
+In this way, most applications would be unaffected (and continue to use only 4-KB pages;
+->
+In this way, most applications would be unaffected (and continue to use only 4-KB pages);
+
+Kyutae Lee
+
+
+
+FILE ./vm-complete/2.txt
+p.3
+
+One neat aspect of studying VMS is that we can see how a real address space is constructed (Figure 23.1.
+->
+One neat aspect of studying VMS is that we can see how a real address space is constructed (Figure 23.1).
+
+Kyutae Lee
+
+
+
+FILE ./vm-complete/1.txt
+page 16, "See meltdownattack.com
+and spectreattack.com for papers describing each attack in detail."
+meltdownattack.com and spectreattack.com both refer to the same website, there is no need to reference both.
+
+Matthew Prinz (UT)
+
+AND
+
+"...if not, the CPU undoes their effects on architectural state (e.g., registers) tries again" ->
+"...if not, the CPU undoes their effects on the architectural state (e.g., registers) and tries again"
+
+Noah Jackson
+
+and
+
+"Even the code in main()..." --> "Even though the code in main...()"
+
+missing "though"
+
+
+
+FILE ./preface/2.txt
+"The first are systems programming projects" -> "The first is systems programming projects"
+"The second type are ..." -> "The second type is ..."
+
+Po-Hao Su (Taiwan)
+
+
+
+FILE ./file-integrity/2.txt
+p.1
+
+latent-sector errors (LSEs)
+->
+latent sector errors (LSEs)
+
+Kyutae Lee
+
+
+
+FILE ./file-integrity/1.txt
+cite [M86] changed to [MK96] (Giovanni Moricca)
+
+
+
+
+
+FILE ./vm-beyondphys-policy/3.txt
+Page 15: "leading to a renaissance in page replacement algoriths."
+
+"algoriths" -> "algorithms"
+
+Jack Xu (UW-Madison)
+
+
+
+FILE ./vm-beyondphys-policy/2.txt
+Please forgive me if I'm mistaken, but within section 22.3, the last word of the second paragraph ("3") I believe it's supposed to say "1".
+
+Holly Johnson (USF)
+
+
+
+
+FILE ./vm-beyondphys-policy/1.txt
+the use bit for [math P] set to 0 (cleared) ->
+the use bit for [math P] is set to 0 (cleared)
+
+Jersey Deng (UCLA)
+
+
+
+FILE ./dist-intro/1.txt
+p.1
+
+they underly
+->
+they underlie
+
+Kyutae Lee
+
+
+
+FILE ./vm-complete-mem-systems/1.txt
+Page 10 in "VM - COMPLETE VIRTUAL MEMORY SYSTEMS", line 9
+directory memory access -> direct memory access
+
+(Amusingly, the typo is in bold.)
+Yuxing Xiang [Peking University]
+
+
+
+FILE ./cpu-sched-lottery/8.txt
+On p.7, reference to "[K+15]" is missing.
+
+Recent studies have shownthat scheduler efficiency is surprisingly important; specifically,
+in a studyof Google datacenters, Kanev et al. show that even after aggressive opti-mization,
+scheduling uses about 5% of overall datacenter CPU time.
+
+->
+
+Recent studies have shownthat scheduler efficiency is surprisingly important; specifically,
+in a studyof Google datacenters, Kanev et al. show that even after aggressive opti-mization,
+scheduling uses about 5% of overall datacenter CPU time [K+15].
+
+Kyutae Lee
+
+
+
+FILE ./cpu-sched-lottery/5.txt
+43 0 49 ->
+43 0 49 12
+
+and
+
+A A A ->
+A A A A
+
+
+Stardustman
+
+
+
+
+FILE ./cpu-sched-lottery/4.txt
+Unfairness metric to Fairness metric
+
+U to F throughout
+
+Figure change to match
+
+can be quite severe ->
+can be quite low.
+
+Otto Sievert
+
+
+
+FILE ./cpu-sched-lottery/6.txt
+In page 10, under the "Using Red-Black Trees" section, in the first sentence of the third paragraph, there's a typo.
+(OLD) CFS does not keep all 'process' in this structure;
+(NEW) CFS does not keep all 'processes' in this structure;
+
+FUN FACT: This page has a footer admitting a deliberate grammatical typo elsewhere in the page to mimic Gollum from LOTR.
+
+Thanks
+Phani Karan
+
+
+
+FILE ./cpu-sched-lottery/7.txt
+In References in p.13
+
+In the description for [B+18],
+there is only one closing parenthesis while there are two opening parentheses.
+I think there should be one more closing parenthesis somewhere appropriate.
+
+Kyutae Lee
+
+
+
+FILE ./cpu-sched-lottery/3.txt
+it inversely by the weight of the process ->
+it inversely by the weight of the process, by dividing the default weight of 1024 (weight_0) by its weight, weight_i.
+
+Chien Chi
+
+
+
+FILE ./cpu-sched-lottery/2.txt
+The formula used to do so is as follows: ->
+The formula used to do so is as follows, assuming n processes:
+
+Chien Chi
+
+
+
+FILE ./cpu-sched-lottery/1.txt
+Change name of stride scheduling section to stride scheduling (Hein Meling)
+
+
+
+FILE ./file-disks/3.txt
+In References on p.15,
+on the comments for [JW91]
+
+scooped by Seltzer et al. [S90].
+->
+scooped by Seltzer et al. [SCO90].
+
+Kyutae Lee
+
+
+
+FILE ./file-disks/2.txt
+However, when updating the disk, the only guarantee drive manufactures make is that a single 512-byte write is atomic
+->
+However, when updating the disk, the only guarantee drive manufacturers make is that a single 512-byte write is atomic
+
+
+
+FILE ./file-disks/1.txt
+Using SSDs well seems as complicated than hard drives, and sometimes more so. ->
+Using SSDs well seems as complicated as hard drives, and sometimes more so.
+
+Jersey Deng (UCLA)
+
+
+
+FILE ./dist-afs/1.txt
+AFSv2 was measured and found to be much more scalable that the original version.
+->
+AFSv2 was measured and found to be much more scalable than the original version.
+(that -> than)
+
+
+"Figure 50.4 (page 9) shows the results of our qualitative comparison"
+should probably remove the page reference "(page 9)". Because the page number won't make sense in a printed book.
+
+Sirui Chen
+
+
+
+FILE ./file-ffs/2.txt
+Chen Huo (Shippensburg University)
+
+-I 5 -> -i 5
+
+(Homework question #6, wrong option for specifying inode table size)
+
+
+
+FILE ./file-ffs/1.txt
+Tian Guo (WPI)
+
+3.69 -> 3.6
+40.6 -> 39.6
+
+(wrong numbers in "large file" calculation)
+
+
+
+
+FILE ./file-lfs/1.txt
+“The Unwritten Contract of of Solid State Drives” by Jun He, Sudarsun Kannan, Andrea C. Arpaci-Dusseau, Remzi H. Arpaci-Dusseau
+is referred as [H+17] in this chapter.
+But in other chapters (file-disks and file-ssd), it is referred as [HK+17].
+So I think it is appropriate to change each [H+17] in this chapter to [HK+17].
+(When I searched "[HK+17]" by cmd+f shortcut on the full pdf file purchased on Gumroad,
+the reference in this chapter did not appear since it was referred as [H+17].)
+
+[H+17]
+->
+[HK+17]
+
+
+
+FILE ./vm-beyondphys/1.txt
+"With a large address space, you don’t have to worry
+about if there is room enough in memory for your program’s data struc-
+tures;"
+
+Should be
+
+With a large address space, you don’t have to worry
+about if there is [enough room] in memory for your program’s data struc-
+tures;
+
+Efkan S. Goktepe
+
+
+
+FILE ./file-raid/2.txt
+Add footnote to explain bad mirrored read/write performance, kind of:
+
+The $1/2$ penalty assumes a naive read/write pattern for mirroring; a more
+sophisticated approach that issued large I/O requests to differing parts of
+each mirror could potentially achieve full bandwidth. Think about this to see
+if you can figure out why.
+
+(many people)
+
+
+
+
+FILE ./file-raid/1.txt
+or (RAID 1+0) ->
+(or RAID 1+0, stripe of mirrors)
+
+(or RAID 0+1) ->
+(or RAID 0+1, mirror of stripes)
+
+Giovanni Di Santi
+
+
+
+
+FILE ./vm-tlbs/1.txt
+int sum = 0; ->
+int i, sum = 0;
+
+
+Santiago Marini
+
+
+
+FILE ./threads-locks/3.txt
+p.18
+
+dequeue the running thread.
+->
+deschedule the running thread.
+
+Kyutae Lee
+
+
+
+FILE ./threads-locks/2.txt
+Section 28.14
+
+"The scheduler determines which thread runs next; if
+the scheduler makes a bad choice, a thread runs that must either spin
+waiting for the lock (our first approach), or yield the CPU immediately
+(our second approach)."
+
+I think the intended meaning was:
+
+"The scheduler determines which thread runs next; if
+the scheduler makes a bad choice, a thread **that runs** must either spin
+waiting for the lock (our first approach), or yield the CPU immediately
+(our second approach)."
+
+Efkan S. Goktepe
+
+
+
+FILE ./threads-locks/1.txt
+Locks, page 13, section 28.12 "Too Much Spinning: What Now?"
+
+The first sentence reads as follows:
+
+"Our simple hardware-based locks are simple (...) and they work (...), which are two excellent properties of any system or code."
+
+I believe the use of "simple" as an adjective twice is redundant, and could be re-written by removing the first occurrence without loss of meaning.
+
+-> "Our hardware-based locks are simple (...) and they work (...), which are two excellent properties of any system or code."
+
+Efkan S. Goktepe
+
+
+
+FILE ./threads-sema/2.txt
+In footnote 3 on p.20:
+
+The url for the book “Little Book of Semaphores” was changed.
+The previous url is unavailable.
+
+http://greenteapress.com/semaphores/downey08semaphores.pdf
+->
+https://greenteapress.com/semaphores/LittleBookOfSemaphores.pdf
+
+Kyutae Lee
+
+
+
+FILE ./threads-sema/1.txt
+int i, tmp=0; ->
+int tmp=0;
+(fig 31.10)
+
+Matías De Pascuale - FaMAF Universidad Nacional De Cordoba
+
+
+
+FILE ./threads-bugs/1.txt
+In References on p.15,
+on the comment for [H93],
+
+ensure than
+->
+ensure that
+
+Kyutae Lee
+
+
+
+
+FILE ./threads-locks-usage/5.txt
+In References on p.15,
+typo on the title for [MS98].
+
+“Nonblocking Algorithms and Preemption-safe Locking on by Multiprogrammed Sharedmemory Multiprocessors. ”
+->
+“Nonblocking Algorithms and Preemption-Safe Locking on Multiprogrammed Shared Memory Multiprocessors”
+
+Kyutae Lee
+
+
+
+FILE ./threads-locks-usage/4.txt
+p.15 References
+
+On the comment for [C06], a period mark "." is missing.
+
+in Linux This article
+->
+in Linux. This article
+
+Kyutae Lee
+
+
+
+FILE ./threads-locks-usage/3.txt
+[C06] [...] LWN has many wonderful articles about the latest in Linux This article is a short [...]
+-->
+[C06] [...] LWN has many wonderful articles about the latest in Linux. This article is a short [...]
+
+
+
+FILE ./threads-locks-usage/2.txt
+missing "queue_t" from 29.9
+
+Jason Waterman
+
+
+
+
+FILE ./threads-locks-usage/1.txt
+in homework part:
+
+interested -> interesting in question 5
+
+Reynaldo H. Verdejo Pinochet
+
+
+
+FILE ./vm-paging/1.txt
+1036 jne  0x1024 ->
+1036 jne  1024
+
+
+
+FILE ./threads-intro/1.txt
+while he was at the Technische Hochshule of Eindhoven (THE)
+->
+while he was at the Technische Hogeschool Eindhoven (THE)
+
+Felix Berief
+
+
+
+FILE ./vm-mechanism/2.txt
+
+page 7:
+a virtual address that is greater than the bounds ->
+a virtual address that is greater than or equal to the bounds
+
+thasinaz
+
+AND
+
+In the 5th page "ASIDE: WHY HARDWARE DOESN’T HANDLE PAGE FAULTS", first sentence is "We know from our experience with the TLB that hardware designers are
+loathe to trust the OS to do much of anything", but I think it should be "loath" instead of "loathe".
+(but this should be in vm-beyondphys)
+
+AND
+
+page 13:
+"In our current approach, although there might be enough physical
+memory for more processes, we are currently restricted to placing
+an address space in a fixed-sized slot and thus internal fragmentation
+can arise"
+->
+"In our current approach, although there might be enough physical
+memory for more processes, we are currently restricted to placing
+an address space in a fixed-sized slot, thereby inefficiently
+using physical memory and unnecessarily limiting our machines capability."
+
+AND
+
+last page (homework), question 2. "What value do you have set" -> "What value do you have to set"
+
+
+
+
+
+FILE ./vm-mechanism/1.txt
+page 3: "client of the interface" -> "interface of the client" (Khaled Emara)
+
+
+
+
+FILE ./file-devices/2.txt
+In References on p.14,
+on the comment for [H18]
+
+the better aggregrators
+->
+the better aggregators
+
+Kyutae Lee
+
+
+
+FILE ./file-devices/1.txt
+On p.6
+
+TIP: INTERRUPTS NOT ALWAYS BETTER THAN PIO
+->
+TIP: INTERRUPTS NOT ALWAYS BETTER THAN POLLING
+
+Kyutae Lee
+
+
+
+FILE ./cpu-mechanisms/1.txt
+In Figure 6.4,
+
+# void swtch(struct context **old, struct context *new);
+
+should be changed to
+
+# void swtch(struct context *old, struct context *new);
+
+-----
+
+The current code in OSTEP Figure 6.4 is buggy.
+I found that others already found the same bug many years ago (see the comments at https://stackoverflow.com/q/45929162/8581025).
+
+Original source code of xv6:
+https://github.com/mit-pdos/xv6-public/blob/c95bde8163eca7a19c95f3b05156e0ad33312589/swtch.S
+
+-----
+
+Kyutae Lee
+
+
+
+FILE ./dist-nfs/4.txt
+p.11
+
+The cache consistency problem is best illustrated with two clients and
+a single server.
+->
+The cache consistency problem is best illustrated with three clients and
+a single server.
+
+When we read the context, we can find that there are "three" clients,
+not "two", in the illustration used.
+
+Kyutae Lee
+
+
+
+FILE ./dist-nfs/3.txt
+pp.6-7
+
+-----
+
+return the data to the client (or an error if there was a failure).
+->
+return the data and the file attributes after the read takes place
+to the client (or an error if there was a failure).
+
+Reference: https://www.rfc-editor.org/rfc/rfc1094.html#section-2.2.7
+-----
+
+and just a success code is returned.
+->
+and just a success code and the file attributes after the write has completed is returned.
+
+Reference: https://www.rfc-editor.org/rfc/rfc1094.html#section-2.2.9
+-----
+
+Kyutae Lee
+
+
+
+FILE ./dist-nfs/2.txt
+If we compare "Figure 49.4: The NFS Protocol: Examples"
+with RFC 1094 (https://www.rfc-editor.org/rfc/rfc1094.html) which is
+a specification for NFSv2, we can find Figure 49.4 has some errors.
+
+---
+
+NFSPROC_GETATTR  file handle
+returns: attributes
+NFSPROC_SETATTR  file handle, attributes
+returns: –
+NFSPROC_LOOKUP   directory file handle, name of file/dir to look up
+returns: file handle
+NFSPROC_READ     file handle, offset, count
+data, attributes
+NFSPROC_WRITE    file handle, offset, count, data
+attributes
+NFSPROC_CREATE   directory file handle, name of file, attributes
+–
+NFSPROC_REMOVE   directory file handle, name of file to be removed
+–
+NFSPROC_MKDIR    directory file handle, name of directory, attributes
+file handle
+NFSPROC_RMDIR    directory file handle, name of directory to be removed
+–
+NFSPROC_READDIR  directory handle, count of bytes to read, cookie
+returns: directory entries, cookie (to get more entries)
+
+
+->
+
+
+NFSPROC_GETATTR  file handle
+returns: attributes
+NFSPROC_SETATTR  file handle, attributes
+returns: attributes
+NFSPROC_LOOKUP   directory file handle, name of file/dir to look up
+returns: file handle, attributes
+NFSPROC_READ     file handle, offset, count
+returns: data, attributes
+NFSPROC_WRITE    file handle, offset, data
+returns: attributes
+NFSPROC_CREATE   directory file handle, name of file, attributes
+returns: file handle, attributes
+NFSPROC_REMOVE   directory file handle, name of file to be removed
+returns: –
+NFSPROC_MKDIR    directory file handle, name of directory, attributes
+returns: file handle, attributes
+NFSPROC_RMDIR    directory file handle, name of directory to be removed
+returns: –
+NFSPROC_READDIR  directory handle, count of bytes to read, cookie
+returns: directory entries, cookie (to get more entries),
+eof (TRUE if there are no more entries in the directory)
+
+
+---
+
+I was not sure I was doing right but I also deleted "count" in the arguments
+for NFSPROC_WRITE because RFC 1094 says:
+'The arguments "beginoffset" and "totalcount" are ignored and are removed
+in the next protocol revision.'
+Maybe "count" information is included in "nfsdata" in RFC 1094? I don't know..
+
+Kyutae Lee
+
+
+
+FILE ./dist-nfs/1.txt
+Page 7 of Network File System chapter
+Last line of the first paragraph under section 49.6:
+
+"information needed to complete request." -> "information needed to complete the request."
+
+(missing "the")
+
+Daniela Ferreira Franco Moura
+
+
+
+FILE ./vm-segmentation/1.txt
+p.11
+that underly computing systems today.
+->
+that underlie computing systems today.
+
+Kyutae Lee
+
+
+
+FILE ./file-ssd/5.txt
+p.24 Homework Question #7
+
+the low watermark (-G M)
+->
+the low watermark (-g M)
+
+Kyutae Lee
+
+
+
+FILE ./file-ssd/4.txt
+p.18
+"how to build file systems for hard drives" was discussed in chapter 41, chapter 42 and chapter 43.
+This chapter (Flash-based SSDs) is chapter 44.
+
+we will learn in subsequent chapters
+->
+we learned in previous chapters
+
+Kyutae Lee
+
+
+
+FILE ./file-ssd/3.txt
+p.8
+"Log-structured File Systems" is chapter 43.
+And this chapter ("Flash-based SSDs") is chapter 44.
+
+as we’ll see in the chapter on log-structured file systems
+->
+as we saw in the chapter on log-structured file systems
+
+Kyutae Lee
+
+
+
+FILE ./file-ssd/2.txt
+Homework
+
+7. "the low watermark (-G M) tells"
+-> "the low watermark (-g M) tells"
+
+thasinaz
+=======
+
+AND
+
+(as we'll see in the chapter on log-structured file systems)
+->
+(as we saw in the chapter on log-structured file systems)
+
+Since the log-structured file systems chapter comes before the flash-based SSDs chapter
+
+Megan Cutrofello
+
+AND
+
+44.8 (Garbage Collection)
+
+"For example, 2000 and 2001 clearly are still pointed to by the map;
+100 and 101 are not and
+therefore are candidates for garbage collection."
+
+->
+
+"For example, pages 2 and 3 clearly are still pointed to by the map (by logical blocks
+2000 and 2001, respectively); 0 and 1
+are no longer pointed to by anything and are therefore candidates for garbage collection."
+
+Kyle Hale (Illinois Institute of Technology)
+
+
+
+FILE ./file-ssd/1.txt
+"and two lives blocks" -> "and two live blocks"
+
+"results in 1 GB of memory needed the device" -> "results in 1 GB of memory needed by the device"
+
+Jersey Deng (UCLA)
+
+
+
+
+FILE ./file-journaling/1.txt
+page 3
+Stolen music perhaps?
+-> (Missing comma)
+Stolen music, perhaps?
+
+
+
+FILE ./cpu-sched/1.txt
+For example, if we had the schedule from above
+->
+For example, if we had the schedule from Figure 7.5
+
+Muhammad Mobeen Movania
+
+
+
+
+FILE ./file-intro/5.txt
+This is not a typo, just a suggestion.
+
+On p.4, there is a piece of source from xv6 kernel:
+
+struct proc {
+...
+struct file *ofile[NOFILE]; // Open files
+...
+};
+
+And I think the explanation around this piece can be more clarified if the following fact is included:
+the indices for the array `ofile` are the file descriptors.
+(Put it another way: the entries of the array `ofile` are indexed by the file descriptors.)
+
+We can check the fact from the following source:
+https://github.com/mit-pdos/xv6-public/blob/12abb1a56164a0d71fb7a76a465c912409f2f60b/sysfile.c#L36-L50
+where `proc->ofile` is indexed by `fd` which is a file descriptor.
+
+Kyutae Lee
+
+
+
+FILE ./file-intro/4.txt
+Suggest changing
+"After creating a hard link to a file, to the file system, there is no difference between the original file name"
+to
+"After creating a hard link to a file, the file system perceives no difference between the original file name"
+
+
+
+FILE ./file-intro/6.txt
+On p.8,
+
+The xv6 kernel just keeps these as an array as well, with one lock per
+entry, as shown here:
+struct {
+struct spinlock lock;
+struct file file[NFILE];
+} ftable;
+
+->
+
+The xv6 kernel just keeps these as an array as well, with one lock for
+the whole table, as shown here:
+struct {
+struct spinlock lock;
+struct file file[NFILE];
+} ftable;
+
+
+
+---
+
+As we can see from `struct spinlock lock;`, just one lock is declared "for the whole table", not "per entry".
+And we can also check that the one lock is used for the whole table from the following source of xv6 kernel:
+https://github.com/mit-pdos/xv6-public/blob/12abb1a56164a0d71fb7a76a465c912409f2f60b/file.c#L30-L38
+
+Kyutae Lee
+
+
+
+FILE ./file-intro/3.txt
+
+page 24, in the tip section
+More radical approaches, such as using a transactional file system [H+18], would solve the problem, there aren’t many transactional file systems in wide deployment.
+
+-> change 3rd comma to a semi-colon
+
+More radical approaches, such as using a transactional file system [H+18], would solve the problem; there aren’t many transactional file systems in wide deployment.
+
+AND
+"second, that the 64-bit offset be used" should be
+"second, that the 64-bit offset is used"
+
+
+
+
+FILE ./file-intro/2.txt
+
+To allow someone (in this case, the other author) to access to this directory,  ->
+To allow someone (in this case, the other author) to access this directory,
+
+
+Alex Giorev
+
+
+
+
+FILE ./file-intro/1.txt
+radicial -> radical
+
+Jersey Deng (UCLA)
+
+
+
+FILE ./cpu-sched-multi/2.txt
+
+Minor grammatical error in section 8.3
+"The simple idea here is to boost the priority of all the jobs in system." should be
+"The simple idea here is to boost the priority of all the jobs in the system."
+(this should actually be in MLFQ chapter but oh well)
+
+AND
+
+On p.6, [A91] should be changed to [A90] to match the code in Reference.
+
+Locks, unfortunately, can greatly reduce performance,
+particularly asthe number of CPUs in the systems grows [A91].
+
+->
+
+Locks, unfortunately, can greatly reduce performance,
+particularly asthe number of CPUs in the systems grows [A90].
+
+Kyutae Lee
+
+
+
+FILE ./cpu-sched-multi/1.txt
+The sentence:
+"The program then re-reads the value at address A; there is no such data CPU 2's cache",
+should probably read:
+"The program then re-reads the value at address A; there is no such data in CPU 2's cache"
+Joel Hassan (U. Helsinki)
+
+
