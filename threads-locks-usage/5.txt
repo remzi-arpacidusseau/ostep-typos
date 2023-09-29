@@ -1,8 +1,0 @@
-In References on p.15,
-typo on the title for [MS98].
-
-“Nonblocking Algorithms and Preemption-safe Locking on by Multiprogrammed Sharedmemory Multiprocessors. ”
-->
-“Nonblocking Algorithms and Preemption-Safe Locking on Multiprogrammed Shared Memory Multiprocessors”
-
-Kyutae Lee

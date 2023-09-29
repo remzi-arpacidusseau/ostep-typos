@@ -1,7 +1,0 @@
-13.5: The VM system is responsible for providing the illusion of a large,
-sparse, private address space to programs, which hold all of their instructions and data therein. 
-
-->
-
-13.5: The VM system is responsible for providing the illusion of a large,
-sparse, private address space to each program, which holds all of their instructions and data therein. 

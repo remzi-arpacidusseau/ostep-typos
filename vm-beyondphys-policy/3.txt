@@ -1,5 +1,0 @@
-Page 15: "leading to a renaissance in page replacement algoriths."
-
-"algoriths" -> "algorithms"
-
-Jack Xu (UW-Madison)

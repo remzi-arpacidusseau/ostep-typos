@@ -1,8 +1,0 @@
-or (RAID 1+0) ->
-(or RAID 1+0, stripe of mirrors)
-
-(or RAID 0+1) ->
-(or RAID 0+1, mirror of stripes)
-
-Giovanni Di Santi
-

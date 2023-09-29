@@ -1,8 +1,0 @@
-Page 7 of Network File System chapter
-Last line of the first paragraph under section 49.6:
-
-"information needed to complete request." -> "information needed to complete the request."
-
-(missing "the")
-
-Daniela Ferreira Franco Moura

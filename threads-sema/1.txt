@@ -1,5 +1,0 @@
-int i, tmp=0; ->
-int tmp=0;
-(fig 31.10)
-
-Matías De Pascuale - FaMAF Universidad Nacional De Cordoba

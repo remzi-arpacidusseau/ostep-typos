@@ -1,6 +1,0 @@
-p.11
-that underly computing systems today.
-->
-that underlie computing systems today.
-
-Kyutae Lee

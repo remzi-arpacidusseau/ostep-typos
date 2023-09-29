@@ -1,4 +1,0 @@
-replace ~ in URL in fat citation to %7e
-(which works with linking)
-
-Nizare Leonetti

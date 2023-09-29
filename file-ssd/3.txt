@@ -1,9 +1,0 @@
-p.8
-"Log-structured File Systems" is chapter 43.
-And this chapter ("Flash-based SSDs") is chapter 44.
-
-as we’ll see in the chapter on log-structured file systems
-->
-as we saw in the chapter on log-structured file systems
-
-Kyutae Lee

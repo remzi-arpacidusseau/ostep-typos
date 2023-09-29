@@ -1,7 +1,0 @@
-p.3
-
-One neat aspect of studying VMS is that we can see how a real address space is constructed (Figure 23.1.
-->
-One neat aspect of studying VMS is that we can see how a real address space is constructed (Figure 23.1).
-
-Kyutae Lee

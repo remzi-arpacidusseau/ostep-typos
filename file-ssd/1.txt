@@ -1,6 +1,0 @@
-"and two lives blocks" -> "and two live blocks"
-
-"results in 1 GB of memory needed the device" -> "results in 1 GB of memory needed by the device"
-
-Jersey Deng (UCLA)
-

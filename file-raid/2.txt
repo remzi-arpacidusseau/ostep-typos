@@ -1,9 +1,0 @@
-Add footnote to explain bad mirrored read/write performance, kind of:
-
-The $1/2$ penalty assumes a naive read/write pattern for mirroring; a more
-sophisticated approach that issued large I/O requests to differing parts of
-each mirror could potentially achieve full bandwidth. Think about this to see
-if you can figure out why.
-
-(many people)
-

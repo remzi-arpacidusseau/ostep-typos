@@ -1,9 +1,0 @@
-p.18
-"how to build file systems for hard drives" was discussed in chapter 41, chapter 42 and chapter 43.
-This chapter (Flash-based SSDs) is chapter 44.
-
-we will learn in subsequent chapters
-->
-we learned in previous chapters
-
-Kyutae Lee

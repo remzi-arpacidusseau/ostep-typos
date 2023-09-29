@@ -1,2 +1,0 @@
-page 3: "client of the interface" -> "interface of the client" (Khaled Emara)
-

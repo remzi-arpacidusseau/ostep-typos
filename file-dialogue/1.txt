@@ -1,2 +1,0 @@
-Page-1. 3rd line from bottom.
-"Check out some the latest..." -> "Check out some (of) the latest...".

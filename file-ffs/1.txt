@@ -1,7 +1,0 @@
-Tian Guo (WPI)
-
-3.69 -> 3.6
-40.6 -> 39.6
-
-(wrong numbers in "large file" calculation)
-

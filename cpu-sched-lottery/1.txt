@@ -1,1 +1,0 @@
-Change name of stride scheduling section to stride scheduling (Hein Meling)

@@ -1,7 +1,0 @@
-p.18
-
-dequeue the running thread.
-->
-deschedule the running thread.
-
-Kyutae Lee
